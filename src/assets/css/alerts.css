@@ -1,0 +1,180 @@
+.alert {
+  padding: 1rem 1.5rem;
+  border: 0;
+  font-size: 0.875rem;
+  border-radius: 0.25rem; }
+  .alert .alert-inner--icon {
+    font-size: 1.25rem;
+    margin-right: 1.25rem;
+    display: inline-block;
+    vertical-align: middle; }
+    .alert .alert-inner--icon i.ni {
+      position: relative;
+      top: 1px; }
+  .alert .alert-inner--text {
+    display: inline-block;
+    vertical-align: middle; }
+
+.alert:not(.alert-secondary) {
+  color: #fff; }
+
+[class*="alert-"] .alert-link {
+  color: #fff;
+  border-bottom: 1px dotted rgba(255, 255, 255, 0.5); }
+
+.alert-heading {
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-top: .15rem; }
+
+.alert-dismissible .close {
+  top: 50%;
+  right: 1.5rem;
+  padding: 0;
+  transform: translateY(-50%);
+  color: rgba(255, 255, 255, 0.6);
+  opacity: 1; }
+  .alert-dismissible .close:hover, .alert-dismissible .close:focus {
+    color: rgba(255, 255, 255, 0.9);
+    opacity: 1 !important; }
+  @media (max-width: 575.98px) {
+    .alert-dismissible .close {
+      top: 1rem;
+      right: .5rem; } }
+  .alert-dismissible .close > span:not(.sr-only) {
+    font-size: 1.5rem;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.6); }
+  .alert-dismissible .close:hover > span:not(.sr-only), .alert-dismissible .close:focus > span:not(.sr-only) {
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.9); }
+
+.alert {
+  position: relative;
+  padding: 1rem 1.5rem;
+  margin-bottom: 1rem;
+  border: 0.0625rem solid transparent;
+  border-radius: 0.25rem; }
+
+.alert-heading {
+  color: inherit; }
+
+.alert-link {
+  font-weight: 600; }
+
+.alert-dismissible {
+  padding-right: 4.5rem; }
+  .alert-dismissible .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1rem 1.5rem;
+    color: inherit; }
+
+.alert-primary {
+  color: #fff;
+  background-color: #525f7f;
+  border-color: #525f7f }
+  .alert-primary hr {
+    border-top-color: #6276e4; }
+  .alert-primary .alert-link {
+    color: #445883; }
+
+.alert-secondary {
+  color: #3a4454;
+  background-color: #f6f7f8;
+  border-color: #f6f7f8; }
+  .alert-secondary hr {
+    border-top-color: #e8eaed; }
+  .alert-secondary .alert-link {
+    color: #d6dae2; }
+
+.alert-success {
+  color: #fff;
+  background-color: #4fd69c;
+  border-color: #4fd69c; }
+  .alert-success hr {
+    border-top-color: #3ad190; }
+  .alert-success .alert-link {
+    color: #24a46d; }
+
+.alert-info {
+  color: #fff;
+  background-color: #37d5f2;
+  border-color: #37d5f2; }
+  .alert-info hr {
+    border-top-color: #1fd0f0; }
+  .alert-info .alert-link {
+    color: #0da5c0; }
+
+.alert-warning {
+  color: #fff;
+  background-color: #fc7c5f;
+  border-color: #fc7c5f; }
+  .alert-warning hr {
+    border-top-color: #fc6846; }
+  .alert-warning .alert-link {
+    color: #fa3a0e; }
+
+.alert-danger {
+  color: #fff;
+  background-color: #e64c3c;
+  border-color: #e64c3c; }
+  .alert-danger hr {
+    border-top-color: #f63e62; }
+  .alert-danger .alert-link {
+    color: #ec0c38; }
+
+.alert-light {
+  color: #fff;
+  background-color: #bac1c8;
+  border-color: #bac1c8; }
+  .alert-light hr {
+    border-top-color: #acb4bd; }
+  .alert-light .alert-link {
+    color: #919ca6; }
+
+.alert-dark {
+  color: #fff;
+  background-color: #45484b;
+  border-color: #45484b; }
+  .alert-dark hr {
+    border-top-color: #393b3e; }
+  .alert-dark .alert-link {
+    color: #0a0c0d; }
+
+.alert-default {
+  color: #fff;
+  background-color: #3c4d69;
+  border-color: #3c4d69; }
+  .alert-default hr {
+    border-top-color: #334159; }
+  .alert-default .alert-link {
+    color: #0b1526; }
+
+.alert-white {
+  color: #3a4454;
+  background-color: white;
+  border-color: white; }
+  .alert-white hr {
+    border-top-color: #f2f2f2; }
+  .alert-white .alert-link {
+    color: #e6e6e6; }
+
+.alert-neutral {
+  color: #3a4454;
+  background-color: white;
+  border-color: white; }
+  .alert-neutral hr {
+    border-top-color: #f2f2f2; }
+  .alert-neutral .alert-link {
+    color: #e6e6e6; }
+
+.alert-darker {
+  color: #fff;
+  background-color: #292929;
+  border-color: #292929; }
+  .alert-darker hr {
+    border-top-color: #1c1c1c; }
+  .alert-darker .alert-link {
+    color: black; }

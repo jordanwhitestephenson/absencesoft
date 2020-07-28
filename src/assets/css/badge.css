@@ -1,0 +1,156 @@
+
+.badge {
+  text-transform: uppercase; }
+  .badge a {
+    color: #FFF; }
+
+.badge-pill {
+  padding-right: 0.875em;
+  padding-left: 0.875em; }
+
+.badge-circle {
+  text-align: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  font-size: .875rem; }
+
+.badge-inline {
+  margin-right: .625rem; }
+
+.badge-inline + span {
+  top: 2px;
+  position: relative; }
+
+.badge-inline + span > a {
+  text-decoration: underline; }
+
+.badge-md {
+  padding: .65em 1em; }
+
+.badge-lg {
+  padding: .85em 1.375em; }
+
+.badge-secondary {
+  color: #32325d; }
+
+.badge {
+  display: inline-block;
+  padding: 0.35rem 0.375rem;
+  font-size: 66%;
+  font-weight: 600;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem; }
+  .badge:empty {
+    display: none; }
+
+.btn .badge {
+  position: relative;
+  top: -1px; }
+
+.badge-pill {
+  padding-right: 0.875em;
+  padding-left: 0.875em;
+  border-radius: 10rem; }
+
+.badge-primary {
+  color: #2643e9;
+  background-color: rgba(203, 210, 246, 0.5); }
+  .badge-primary[href]:hover, .badge-primary[href]:focus {
+    color: #fff;
+    text-decoration: none;
+    background-color: #445883; }
+
+.badge-secondary {
+  color: #d3d9e5;
+  background-color: rgba(255, 255, 255, 0.5); }
+  .badge-secondary[href]:hover, .badge-secondary[href]:focus {
+    color: #3a4454;
+    text-decoration: none;
+    background-color: #d6dae2; }
+
+.badge-success {
+  color: #1aae6f;
+  background-color: rgba(147, 231, 195, 0.5); }
+  .badge-success[href]:hover, .badge-success[href]:focus {
+    color: #fff;
+    text-decoration: none;
+    background-color: #24a46d; }
+
+.badge-info {
+  color: white;
+  background-color: #73a4d3; }
+  .badge-info[href]:hover, .badge-info[href]:focus {
+    color: #fff;
+    text-decoration: none;
+    background-color: #0da5c0; }
+
+.badge-warning {
+  color: #ff3709;
+  background-color: rgba(254, 201, 189, 0.5); }
+  .badge-warning[href]:hover, .badge-warning[href]:focus {
+    color: #fff;
+    text-decoration: none;
+    background-color: #fa3a0e; }
+
+.badge-danger {
+  color: #f80031;
+  background-color: rgba(251, 175, 190, 0.5); }
+  .badge-danger[href]:hover, .badge-danger[href]:focus {
+    color: #fff;
+    text-decoration: none;
+    background-color: #ec0c38; }
+
+.badge-light {
+  color: #879cb0;
+  background-color: rgba(244, 245, 246, 0.5); }
+  .badge-light[href]:hover, .badge-light[href]:focus {
+    color: #fff;
+    text-decoration: none;
+    background-color: #919ca6; }
+
+.badge-dark {
+  color: #090c0e;
+  background-color: rgba(90, 101, 112, 0.5); }
+  .badge-dark[href]:hover, .badge-dark[href]:focus {
+    color: #fff;
+    text-decoration: none;
+    background-color: #0a0c0d; }
+
+.badge-default {
+  color: #091428;
+  background-color: rgba(52, 98, 175, 0.5); }
+  .badge-default[href]:hover, .badge-default[href]:focus {
+    color: #fff;
+    text-decoration: none;
+    background-color: #0b1526; }
+
+.badge-white {
+  color: #e8e3e3;
+  background-color: rgba(255, 255, 255, 0.5); }
+  .badge-white[href]:hover, .badge-white[href]:focus {
+    color: #3a4454;
+    text-decoration: none;
+    background-color: #e6e6e6; }
+
+.badge-neutral {
+  color: #e8e3e3;
+  background-color: rgba(255, 255, 255, 0.5); }
+  .badge-neutral[href]:hover, .badge-neutral[href]:focus {
+    color: #3a4454;
+    text-decoration: none;
+    background-color: #e6e6e6; }
+
+.badge-darker {
+  color: black;
+  background-color: rgba(64, 64, 64, 0.5); }
+  .badge-darker[href]:hover, .badge-darker[href]:focus {
+    color: #fff;
+    text-decoration: none;
+    background-color: black; }
