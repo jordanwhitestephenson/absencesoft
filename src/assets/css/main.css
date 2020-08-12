@@ -18,7 +18,7 @@
   --secondary: #f4f5f7;
   --success: #5fbe75;
   --info: #73a4d3;
-  --warning: #fdb94b;
+  --warning: #BE0E30;
   --danger: #e64c3c;
   --light: #adb5bd;
   --dark: #3a4454;
@@ -421,7 +421,7 @@ button.bg-danger:focus {
   background-color: #ec0c38 !important; }
 
 .bg-light {
-  background-color: #f2f4fa !important; }
+  background-color: #fff !important; }
 
 a.bg-light:hover, a.bg-light:focus,
 button.bg-light:hover,
@@ -527,7 +527,7 @@ button.bg-darker:focus {
   border-color: #73a4d3 !important; }
 
 .border-warning {
-  border-color: #fdb94b !important; }
+  border-color: #BE0E30 !important; }
 
 .border-danger {
   border-color: #e64c3c !important; }
@@ -1076,7 +1076,7 @@ button.bg-gray-dark:focus {
   background-color: #20203c !important; }
 
 .bg-light {
-  background-color: #f2f4fa !important; }
+  background-color: #fff !important; }
 
 a.bg-light:hover, a.bg-light:focus,
 button.bg-light:hover,
