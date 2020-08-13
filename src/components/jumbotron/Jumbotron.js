@@ -5,7 +5,6 @@ class JumbotronContainer extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      user: "",
       isMobile: false
     };
   }
@@ -26,7 +25,7 @@ class JumbotronContainer extends React.Component {
       backgroundPosition: "center",
       display: "flex",
       alignItems: "center",
-      marginBotton: !isMobile ? "2em" : ""
+      marginBottom: !isMobile ? "2em" : "6em"
     };
     const gradientJumbotron = {
       backgroundImage: !isMobile ? `url(${this.props.image})` : `linear-gradient(rgb(41 35 35 / 0%), rgb(10 10 10), rgb(10 10 10), rgb(10 10 10), rgb(10 10 10)), url(${this.props.mobileImage})`,
@@ -35,6 +34,7 @@ class JumbotronContainer extends React.Component {
       minHeight: !isMobile ? this.props.imageHeight : this.props.mobileHeight,
       display: "flex",
       alignItems: "center",
+   
       
     };
     return (
@@ -42,7 +42,7 @@ class JumbotronContainer extends React.Component {
         {this.props.fullcontainer ? (
           <Jumbotron style={jumbotron}></Jumbotron>
         ) : (
-          <Jumbotron style={gradientJumbotron} className="pb-7 pt-7 m-0">
+          <Jumbotron style={gradientJumbotron} className={isMobile ? "pb-7 pt-7 m-0" : "pb-7 pt-7 mb-7"}>
             <Container>
               <Row>
                 <div className="d-flex col-md-6 col-sm-12 flex-column ">

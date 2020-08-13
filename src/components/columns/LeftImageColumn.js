@@ -5,19 +5,26 @@ class LeftImageColumn extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      user: "",
       isMobile: false
     };
+  }
+  async componentDidMount() {
+    window.addEventListener("resize", this.resize.bind(this));
+    this.resize();
+  }
+
+  resize() {
+    this.setState({isMobile: window.innerWidth <= 760});
   }
   render() {
     const isMobile = this.state.isMobile;
 
     return (
       <section bg-white>
-        <Container className="p-0">
+        <Container className={isMobile ? "p-0" : this.props.firstLeftContainer && !isMobile ?  "mb-7 mt-7" : ""}>
           <Row>
             <div className={this.props.fullscreen ? "col-md-6 col-sm-12 p-0" : "col-md-6 col-sm-12"}>
-              <img className={isMobile ? "pb-5" : ""} alt={this.props.alt} src={this.props.left} />
+              <img className={isMobile ? "pb-3" : ""} alt={this.props.alt} src={this.props.left} />
             </div>
             <div className="d-flex col-md-6 col-sm-12 align-items-center  ">
               <Container >

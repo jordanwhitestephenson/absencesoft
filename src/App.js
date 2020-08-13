@@ -11,8 +11,6 @@ function App() {
   const helmetTest = require("././assets/GiroAssets/HelmetTest.png");
   const shoes = require("././assets/GiroAssets/GiroShoe.png");
   const bike = require("././assets/GiroAssets/Bike.png");
-  const bikeText =
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in.";
   const mobileHelmet = require("././assets/GiroAssets/Helmet_Mobile.png");
   const goggles = require("././assets/GiroAssets/Goggles.png");
   const goggleText =
@@ -23,13 +21,12 @@ function App() {
   return (
     <div className="App">
       <JumbotronContainer imageHeight="98vh" alt="Giro's bike helmet" fullcontainer mobileHeight="50vh" image={helmet} mobileImage={mobileHelmet}></JumbotronContainer>
-      <LeftImageColumn left={goggles} text={goggleText} headline="Headline Goes Right Here"></LeftImageColumn>
+      <LeftImageColumn left={goggles} text={goggleText} headline="Headline Goes Right Here" firstLeftContainer></LeftImageColumn>
       <JumbotronContainer imageHeight="30vh" mobileHeight="10vh" image={helmetBackground} mobileImage={helmetBackground} text={helmetText}></JumbotronContainer>
       <LeftImageColumn left={bike} fullscreen alt="Giro's bike helmet" firstSecondaryHeadline="Feature One" secondSecondaryHeadline="Feature Two" headline="Features" 
         firstSecondaryText={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do."}
         secondSecondaryText={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut."}
       >
-
       </LeftImageColumn>
       <RightImageColumn
         right={shoes}

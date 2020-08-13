@@ -30,7 +30,7 @@ class RightImageColumn extends React.Component {
             ) : (
               false
             )}
-            <div className="d-flex col-md-6 col-sm-12 align-items-center ">
+            <div className="d-flex col-md-6 col-sm-12 align-items-center">
               <Container>
                 <h3 className="text-left display-3 text-uppercase pt-4">{this.props.headline}</h3>
                 {this.props.firstSecondaryHeadline ? <h4 className="text-left display-4 text-uppercase"> {this.props.firstSecondaryHeadline} </h4> : false}

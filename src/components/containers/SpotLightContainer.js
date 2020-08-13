@@ -5,7 +5,6 @@ class SpotLightContainer extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      user: "",
       isMobile: false
     };
   }
@@ -73,10 +72,10 @@ class SpotLightContainer extends React.Component {
                       consequat. Duis aute irure dolor in reprehenderit in voluptate.
                     </p>
                     <div className={this.state.isMobile ? "d-flex flex-column" : "d-flex align-items-center justify-items-center"}>
-                      <Button  color="warning" size="lg" type="button" className= {isMobile ? "btn text-uppercase mb-3" : "btn text-uppercase mr-3"}>
+                      <Button  color="warning" size="lg" type="button" className= {isMobile ? "btn text-uppercase mb-4 mt-4" : "btn text-uppercase mr-3"}>
                         This is a Call To Action
                       </Button>
-                      <Button  color="warning" size="lg" type="button" className="btn text-uppercase">
+                      <Button  color="warning" size="lg" type="button" className={isMobile ? "btn text-uppercase mt-3" : "btn text-uppercase"}>
                         This is a Call To Action 2
                       </Button>
                     </div>

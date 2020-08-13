@@ -39,6 +39,7 @@ import "./assets/css/tooltip.css";
 import "./assets/css/video.css";
 import './assets/css/bootstrap.min.css';
 import "./assets/vendor/nucleo/css/nucleo.css";
+import './assets/fonts/NewsGothicBT-BoldCondensed.ttf'
 import "./assets/vendor/@fortawesome/fontawesome-free/css/all.min.css";
 import "./assets/vendor/font-awesome/css/font-awesome.css";
 ReactDOM.render(
